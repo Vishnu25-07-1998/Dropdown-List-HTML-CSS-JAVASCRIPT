@@ -1,0 +1,61 @@
+.heading {
+    width: 60%;
+    border: 1.5px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgb(192, 188, 188);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dropDown {
+    width: 60%;
+    border: 1.5px solid #ccc;
+    margin: 30px auto;
+}
+
+.selectDrop {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 8px;
+    border: 1.5px solid #ccc;
+}
+
+.list-items {
+    padding: 0;
+    margin: 10px 6px;
+    display: none;
+}
+
+.list-items.show {
+    display: block;
+}
+
+.list-name {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.check-box {
+    width: 25px;
+    height: 24px;
+    border: 1.5px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-box i {
+    transform: scale(0);
+}
+
+.check-box i.checked {
+    transform: scale(1);
+}
+
+.list-text {
+    margin-left: 10px;
+}
